@@ -1,0 +1,192 @@
+.body {
+  margin: 0%;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  background: red;
+  color: white;
+}
+header h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+header ul li:hover {
+  background: white;
+  color: red;
+  /* transform: scale(1.5); */
+  zoom: 130%;
+}
+
+header .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin-left: 1rem;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.callicon {
+  text-align: center;
+  margin: 10px;
+}
+.callicon h3:hover {
+  zoom: 130%;
+  background: grey;
+}
+.hero {
+  background-image: url(demopic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hero-content {
+  background: red;
+  color: white;
+  width: 50%;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 300px 0px 300px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 80px;
+  gap: 0.5rem;
+}
+.btn {
+  background: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  height: 3rem;
+  text-align: center;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+.btn:hover {
+  zoom: 120%;
+}
+.sub-hero div {
+  width: 100%;
+  height: 100px;
+}
+.btn2 {
+  height: 3rem;
+  border-radius: 3rem;
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0.8rem;
+  border: none;
+  background: red;
+  color: white;
+}
+.btn2:hover {
+  zoom: 120%;
+  border-style: double;
+}
+.booking {
+  background: rgb(201, 194, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main .container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.box {
+  width: 20%;
+  height: 300px;
+  margin: 15px;
+  background: white;
+  color: black;
+  box-sizing: border-box;
+  border: 0.5px solid;
+  border-radius: 2rem;
+  padding: 30px 20px;
+  text-align: start;
+  border-style: ridge;
+}
+.box:hover {
+  border-color: red;
+}
+.btn3 {
+  height: 2rem;
+  border-radius: 3rem;
+  background: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  background: red;
+  color: white;
+}
+.reason {
+  background: rgb(232, 228, 228);
+}
+.reason .container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 30px 25px;
+  margin-top: 20px;
+}
+.title2 {
+  text-align: center;
+  font-size: 50px;
+  padding: 40px 30px;
+}
+.geekimg {
+  width: 50%;
+  height: 500px;
+  background-image: url(geek.jpg);
+  background-size: cover;
+}
+.sidecontent {
+  font-size: large;
+  font-weight: bold;
+}
